@@ -1,0 +1,27 @@
+{
+  "name": "task-tracker-cli",
+  "version": "1.0.0",
+  "description": "A production-grade CLI task tracker built with native Node.js modules",
+  "type": "module",
+  "main": "app.js",
+  "bin": {
+    "task-tracker": "app.js"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "add": "node app.js add",
+    "list": "node app.js list",
+    "update": "node app.js update",
+    "delete": "node app.js delete",
+    "mark-done": "node app.js mark-done",
+    "mark-in-progress": "node app.js mark-in-progress"
+  },
+  "keywords": [
+    "task",
+    "tracker",
+    "cli",
+    "productivity"
+  ],
+  "author": "",
+  "license": "ISC"
+}
